@@ -232,9 +232,23 @@
         display: block;
     }  
     .right-scroll .sidebar h1{
-        margin-top: 25px;
+        font-size: 20px;
+        margin-top: 0px;
         background-image: linear-gradient(to left, #a5a2a4 50%, white 50%);
         color: #000;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .right-scroll .sidebar h2{
+        font-size: 14px;
+    }
+    .right-scroll .sidebar p{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding: 0px;
+    }
+    .sidebar h1 a{
+        font-size: 20px;
     }
 }
 .sidebar {
@@ -250,17 +264,14 @@
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
   }
   .sidebar a {
-    padding: 8px 8px 8px 32px;
+    padding: 4px 4px 4px 12px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 16px;
     color: #818181;
     display: block;
     transition: 0.3s;
   }
 
-  .sidebar a:hover {
-    color: #f1f1f1;
-  }
   .sidebar .closebtn {
     position: absolute;
     top: 0;
@@ -275,10 +286,11 @@
     color: black;
     padding: 10px 15px;
     border: none;
+    border-radius: 8px;
     margin-top: 10px;
     position: sticky;
-    top: 60px;
-    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 18%);
+    top: 70px;
+    box-shadow: 0 0.15rem 0.5rem rgba(0, 0, 0, 0.199);
   }
   .openbtn:hover {
     background-color: #444;
